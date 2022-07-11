@@ -28,7 +28,42 @@ Code is generally just written in text, and stuff (an interpreter, a compiler) r
 * Open a shell and navigate to that folder (if the folder is open in explorer you can type in 'cmd' in the top bar of that folder to do this)
 * in the shell window type in `git clone ` then paste in the web address from above
 * GitHub will pull the code in locally, and it will now be available on your machine.
-* Open up PyCharm, and point to the directory you've just made.  You can then open up the _Notebooks_ directory and open up `learn_python.pynb`
+* Open up PyCharm, and point to the directory you've just made.
 
 ### Installing Jupyter
 * Ths learn python file is what is called a _Jupyter Notebook_, you need to install a tool called Jupyter to be able to use these.  (Follow the Instructions At)[https://blog.finxter.com/how-to-install-jupyter-notebook-on-pycharm/]
+
+### Next Steps
+> Before doing anything else run through the learn_python.ipynb file to give yourself a primer on python functionality.  Then there's a load of options from here
+
+* Games on computers are fun yeah?  
+    * If you'd like to write some simple games to play against the computer look in the _games_ folder
+    * If you'd like to write an interactive game with graphics look in the _pygame_ directory
+* Fractal's are never ending patterns that show more and more detail as you focus deeper on them.  To explore some fractal imagery have a look in the _fractals_ directory
+    * https://nnart.org/how-to-draw-fractals-by-hand-a-beginners-guide/
+    *  
+* There's an amazing amount of data available on the internet, to explore what kind of information you can find out go to the _apis_ directory
+     - Generate a random person's profile
+     - Generate AI Art
+     - Mummy's gaming data
+* Some mathematical challenges to try can be found in the _maths_ folder
+    - Generating Random Numbers
+    - Normal distributions off random data
+* A lot of programmers like writing code as efficiently as possible.  If you'd like to try some of these challenges, look in the _leetcode_ directory
+
+### Saving your code
+
+Do remember to save your code reasonably often.  When you're finishing up, navigate to the terminal in PyCharm, and type in
+
+> git add .
+
+_This adds all your outstanding changes to what you're going to be saving to the cloud_
+
+> git commit -m "Say what you did in this block of changes as an example"
+> git commit -m "I started writing Rock Paper Scissors"
+
+_This associates the code changes with a specific 'commit' which means they were all made in one larger change_
+
+> git push
+
+_This pushes the changes to the source control area._
