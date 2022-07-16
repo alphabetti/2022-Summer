@@ -34,14 +34,13 @@ Code is generally just written in text, and stuff (an interpreter, a compiler) r
 * Ths learn python file is what is called a _Jupyter Notebook_, you need to install a tool called Jupyter to be able to use these.  (Follow the Instructions At)[https://blog.finxter.com/how-to-install-jupyter-notebook-on-pycharm/]
 
 ### Next Steps
-> Before doing anything else run through the learn_python.ipynb file to give yourself a primer on python functionality.  Then there's a load of options from here
+> Before doing anything else run through the learn_python.ipynb file to give yourself a primer on python functionality.  Then there's a load of options from here.  If that looks dull you can always try to learn just be working through the games folder.
 
 * Games on computers are fun yeah?  
     * If you'd like to write some simple games to play against the computer look in the _games_ folder
     * If you'd like to write an interactive game with graphics look in the _pygame_ directory
 * Fractal's are never ending patterns that show more and more detail as you focus deeper on them.  To explore some fractal imagery have a look in the _fractals_ directory
-    * https://nnart.org/how-to-draw-fractals-by-hand-a-beginners-guide/
-    *  
+* Computers can be used to play some cool music - look in the _music_ folder
 * There's an amazing amount of data available on the internet, to explore what kind of information you can find out go to the _apis_ directory
      - Generate a random person's profile
      - Generate AI Art
