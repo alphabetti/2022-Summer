@@ -50,6 +50,9 @@ Code is generally just written in text, and stuff (an interpreter, a compiler) r
     - Normal distributions off random data
 * A lot of programmers like writing code as efficiently as possible.  If you'd like to try some of these challenges, look in the _leetcode_ directory
 
+### Debugging Code
+To spot errors first flick to the "Problems" tab, PyCharm will highlight anything which is bad python, just double click to go to the line and you can go fix it
+
 ### Saving your code
 
 Do remember to save your code reasonably often.  When you're finishing up, navigate to the terminal in PyCharm, and type in
